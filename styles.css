@@ -1,42 +1,56 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Georgia', serif; /* 使用更适合阅读的衬线字体 */
     background-color: #f4f4f4;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
 .container {
     display: flex;
-    width: 90%;
-    max-width: 1200px;
-    height: 80vh;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    flex: 1;
+    overflow: hidden;
 }
 
 .left-panel, .right-panel {
     flex: 1;
-    padding: 20px;
+    padding: 40px 20px;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .left-panel {
+    background-color: #ffffff;
     border-right: 2px solid #e0e0e0;
 }
 
 .right-panel {
+    background-color: #ffffff;
     border-left: 2px solid #e0e0e0;
 }
 
-h1 {
-    font-size: 24px;
+h2 {
+    font-size: 22px;
     margin-bottom: 20px;
+    text-align: center;
+    color: #444444;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
 }
