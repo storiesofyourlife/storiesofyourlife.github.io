@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Of Your Life</title>
+    <title>Novel Reader</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,17 +12,27 @@
     </header>
     <div class="container">
         <div class="left-panel">
-            <h2>English Version</h2>
-            <p>
-                This is where the English text of the novel will appear. You can replace this sample text with the actual content of your novel.
-            </p>
+            <div id="english-content">Loading English content...</div>
         </div>
         <div class="right-panel">
-            <h2>中文版本</h2>
-            <p>
-                这是小说的中文文本显示位置。你可以将这个示例文本替换为小说的实际内容。
-            </p>
+            <div id="chinese-content">正在加载中文内容...</div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.10/marked.min.js"></script>
+    <script>
+        // Function to load Markdown content
+        function loadMarkdown(file, elementId) {
+            fetch(file)
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById(elementId).innerHTML = marked.parse(text);
+                });
+        }
+
+        // Load English and Chinese content
+        loadMarkdown('english.md', 'english-content');
+        loadMarkdown('chinese.md', 'chinese-content');
+    </script>
 </body>
 </html>
