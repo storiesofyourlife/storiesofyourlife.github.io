@@ -1,0 +1,20 @@
+# Prevent accidental addition of package management files
+# This is a static website with no dependencies
+package-lock.json
+package.json
+node_modules/
+
+# System files  
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
