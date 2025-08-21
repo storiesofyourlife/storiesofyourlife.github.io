@@ -72,19 +72,20 @@ nav {
 /* Main Content Styles */
 main {
     display: flex;
-    gap: 3rem;
-    padding: 2.5rem 0;
+    gap: 0;
+    padding: 0;
     min-height: calc(100vh - 200px);
 }
 
 .chapters {
-    flex: 0 0 280px;
+    flex: 0 0 320px;
     background-color: #f7fafc;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
-    height: fit-content;
+    border-right: 1px solid #e2e8f0;
+    padding: 2rem 1.5rem;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
     position: sticky;
-    top: 2rem;
+    top: 0;
 }
 
 .chapters h2 {
@@ -131,6 +132,9 @@ main {
 .content {
     flex: 1;
     max-width: none;
+    padding: 2rem 2.5rem;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
 }
 
 .progress {
@@ -182,15 +186,19 @@ main {
     
     main {
         flex-direction: column;
-        gap: 1.5rem;
-        padding: 1.5rem 0;
+        height: auto;
+        min-height: auto;
     }
 
     .chapters {
         flex: none;
         position: static;
-        padding: 1rem;
-        margin-bottom: 1rem;
+        height: auto;
+        padding: 1.5rem 1rem;
+        margin-bottom: 0;
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+        overflow-y: visible;
     }
     
     .chapters h2 {
@@ -206,6 +214,12 @@ main {
     .nav-links li a {
         padding: 0.375rem 0.75rem;
         font-size: 0.8125rem;
+    }
+    
+    .content {
+        height: auto;
+        overflow-y: visible;
+        padding: 1.5rem 1rem;
     }
     
     .content h3 {
