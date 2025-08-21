@@ -1,32 +1,30 @@
 # English Version
 
-## The Great Novel - Complete Story
+## Stories of Your Life and Others - Complete Collection
 
-This novel tells the story of Sarah Mitchell, a librarian in the small town of Willowbrook who discovers she is the descendant of ancient guardians tasked with protecting the boundary between the human world and the magical Forgotten Realm.
+This website presents Ted Chiang's acclaimed science fiction collection "Stories of Your Life and Others" in an interactive web format. The collection contains eight masterful stories that explore themes of consciousness, language, mathematics, religion, and the nature of reality itself.
 
-The complete story is now available in the interactive web version at the main site, featuring:
+The complete collection is now available in the interactive web version, featuring:
 
-- **10 complete chapters** with substantial narrative content
-- **Interactive navigation** between chapters
-- **Progress tracking** as you read through the story
-- **Cohesive storyline** from beginning to end
+- **8 complete stories** with substantial narrative content
+- **Interactive navigation** between stories
+- **Progress tracking** as you read through the collection
+- **Cohesive presentation** of Chiang's philosophical explorations
 
-### Story Summary
+### Collection Overview
 
-The tale follows Sarah's transformation from a quiet small-town librarian to a powerful guardian who must save both the human world and the Forgotten Realm from an invasion of shadow creatures. Along the way, she discovers her magical heritage, battles dark forces, and ultimately finds her true purpose in protecting the balance between worlds.
+Ted Chiang's "Stories of Your Life and Others" is a landmark collection of science fiction that has won numerous awards and critical acclaim. The stories blend rigorous scientific thinking with profound philosophical questions, creating narratives that are both intellectually challenging and deeply moving.
 
-### Chapters Overview
+### Stories Overview
 
-1. **The Beginning** - Sarah discovers a mysterious book
-2. **The Journey** - Learning about her guardian heritage
-3. **Unexpected Events** - Magical creatures appear in Willowbrook
-4. **The Discovery** - Finding her ancestor's resting place
-5. **Revelations** - Uncovering the truth about the threat
-6. **Confrontation** - Facing the corrupt mayor and shadow creatures
-7. **Resolution** - The final battle and sealing of the doorway
-8. **A New Dawn** - Life after becoming a guardian
-9. **Unknown Territories** - Traveling to help other guardians
-10. **The Final Chapter** - Full circle back to Willowbrook
+1. **Tower of Babylon** - Ancient Babylonians attempt to build a tower to reach heaven in an alternate cosmological framework
+2. **Understand** - A man receives cognitive enhancement that transforms his intelligence beyond human comprehension
+3. **Division by Zero** - A mathematician's discovery that 1 = 0 threatens the foundation of mathematical certainty
+4. **Story of Your Life** - A linguist learning an alien language begins to experience time non-linearly (adapted as the film "Arrival")
+5. **Seventy-Two Letters** - Victorian England powered by golem technology faces human extinction
+6. **The Evolution of Human Science** - Enhanced humans make baseline human intelligence obsolete
+7. **Hell Is the Absence of God** - In a world where God's existence is fact, salvation depends only on genuine love
+8. **Liking What You See: A Documentary** - A technology that eliminates perception of beauty raises questions about equality and aesthetics
 
-The novel is now complete and ready for readers to experience through the interactive web interface.
+The collection is now complete and ready for readers to experience through the interactive web interface.
 
